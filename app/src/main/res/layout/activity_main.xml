@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/bt_birth"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="01/01/2000"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="to"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/bt_today"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01/01/2022"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_calculate"
+        android:text="Calcular"
+        android:drawableEnd="@android:color/transparent"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        android:textSize="30sp"
+        android:textColor="@android:color/holo_green_light"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="50dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_result"
+        android:text="@string/valorMesesTotal"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+     />
+
+</LinearLayout>

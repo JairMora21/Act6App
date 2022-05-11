@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Actividad6</string>
+    <string name="valorMesesTotal">0 años | 0 meses | 0 dias</string>
+    <string name="result">Result</string>
+</resources>
